@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="nuhel.applianceautomation.ChannelControl">
+
+
+    <!--channel one-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel One" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/channel_one_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ON" />
+
+        <Button
+            android:id="@+id/channel_one_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OFF" />
+
+    </LinearLayout>
+
+
+    <!--channel two-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel two" />
+
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/channel_two_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ON" />
+
+        <Button
+            android:id="@+id/channel_two_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OFF" />
+
+    </LinearLayout>
+
+
+    <!--channel three-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel Three" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/channel_three_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ON" />
+
+        <Button
+            android:id="@+id/channel_three_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OFF" />
+
+    </LinearLayout>
+
+
+    <!--channel four-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel Four" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/channel_four_on"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ON" />
+
+        <Button
+            android:id="@+id/channel_four_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="OFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
