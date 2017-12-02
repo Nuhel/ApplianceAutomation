@@ -23,18 +23,12 @@ public class ChangePassActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_pass);
-
         sharedPreferences = getSharedPreferences(myData, MODE_PRIVATE);
         prevPass = sharedPreferences.getString("pass", "NUll");
-
-
         oldPass = (EditText) findViewById(R.id.oldPass);
         newPass = (EditText) findViewById(R.id.newPass);
         re_newPass = (EditText) findViewById(R.id.r_newPass);
-
         changePass = (Button) findViewById(R.id.changePass);
-
-
         changePass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
