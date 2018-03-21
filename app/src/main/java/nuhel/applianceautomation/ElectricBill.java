@@ -63,7 +63,6 @@ public class ElectricBill extends AppCompatActivity {
 
         String showtotalunit = String.format("%.5f", totalunit) ;
 
-
         String showtaka = Float.toString(taka);
 
         txt1 = (TextView) findViewById(R.id.textView6);
@@ -77,6 +76,6 @@ public class ElectricBill extends AppCompatActivity {
         txt5 = (TextView) findViewById(R.id.textView11);
         txt5.setText(showtotalunit);
         txt6 = (TextView) findViewById(R.id.textView12);
-        txt6.setText(showtaka);
+        txt6.setText("£ okta"+showtaka);
     }
 }

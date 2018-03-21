@@ -185,7 +185,7 @@
         android:layout_alignBottom="@+id/textView12"
         android:layout_toEndOf="@+id/textView11"
         android:layout_toRightOf="@+id/textView11"
-        android:text="Taka" />
+        android:text="£" />
 
 
 </RelativeLayout>
