@@ -59,7 +59,8 @@ public class ElectricBill extends AppCompatActivity {
         float finalunitfour = 0.1f * mul;
         float totalunit = finalunitone + finalunittwo + finalunitthree + finalunitfour;
 
-        float taka = (float) (totalunit * 3.33) + 50;
+        float taka = (float) (totalunit * .13);
+        //float taka = (float) (totalunit * 3.33) + 50;
 
         String showtotalunit = String.format("%.5f", totalunit) ;
 
